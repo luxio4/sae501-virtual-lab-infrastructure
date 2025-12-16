@@ -78,25 +78,7 @@ L’infrastructure repose sur trois piliers :
 
 ## Structure du projet
 
-sae501-virtual-lab-infrastructure/
-├── docs/
-│   ├── Compte_Rendu_SAE5.01.pdf
-│   └── Guide_Administrateur_Reseau.pdf
-│
-├── portal/
-│   ├── remiv10.py
-│   ├── requirements.txt
-│   └── guac-portal.service
-│
-├── scripts/
-│   ├── powershell/
-│   │   └── UserCreator.ps1
-│   │
-│   └── bash/
-│       └── AutoPoolPerm.sh
-│
-│ README.md
-└── LICENSE
+sae501-virtual-lab-infrastructure/ ├── docs/ (Compte_Rendu_SAE5.01.pdf, Guide_Administrateur_Reseau.pdf) ├── portal/ (remiv10.py, requirements.txt, guac-portal.service) ├── scripts/ (powershell/UserCreator.ps1, bash/AutoPoolPerm.sh) ├── monitoring/ (prometheus.yml) ├── README.md └── LICENSE
 
 
 ## Infrastructure de virtualisation
