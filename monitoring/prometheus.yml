@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'proxmox-pve'
+    static_configs:
+      - targets: ['192.168.1.201:9100'] # Node Exporter sur Proxmox
+
+  - job_name: 'windows-ad'
+    static_configs:
+      - targets: ['192.168.1.203:9182'] # Windows Exporter sur l'AD

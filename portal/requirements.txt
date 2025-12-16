@@ -1,0 +1,5 @@
+flask
+flask-login
+proxmoxer
+mysql-connector-python
+requests
