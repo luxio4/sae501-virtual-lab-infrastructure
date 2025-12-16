@@ -84,7 +84,7 @@ L’infrastructure repose sur trois piliers :
    │   ├── Compte_Rendu_SAE501.pdf
    │   └── Guide_Administrateur_Reseau.pdf
    ├── portal/
-   │   ├── remiv10.py
+   │   ├── portail_web.py
    │   ├── requirements.txt
    │   └── guac-portal.service
    ├── scripts/
@@ -93,9 +93,10 @@ L’infrastructure repose sur trois piliers :
    │   └── bash/
    │       └── AutoPoolPerm.sh
    ├── monitoring/
-   │   └── prometheus.yml
-   ├── README.md
-   └── LICENSE
+   │   └── prometheus.yml 
+   ├── nginx/
+   │   └── tp-portal.conf 
+   └── README.md
 </pre>
 
 ## Infrastructure de virtualisation
@@ -182,7 +183,7 @@ Provisioning via script **PowerShell** :
 
 - **Prometheus** : collecte
 - **Grafana** : dashboards
-- Agents :
+- Agents 
 - Node Exporter (Linux)
 - Windows Exporter (Windows Server)
 
